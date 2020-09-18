@@ -1,0 +1,31 @@
+#!/bin/bash
+
+export OMP_NUM_THREADS=1
+./DFTW
+
+export OMP_NUM_THREADS=2
+./DFTW
+
+export OMP_NUM_THREADS=4
+./DFTW
+
+export OMP_NUM_THREADS=8
+./DFTW
+
+export OMP_NUM_THREADS=12
+./DFTW
+
+export OMP_NUM_THREADS=16
+./DFTW
+
+export OMP_NUM_THREADS=20
+./DFTW
+
+export OMP_NUM_THREADS=24
+./DFTW
+
+export OMP_NUM_THREADS=28
+./DFTW
+
+export OMP_NUM_THREADS=32
+./DFTW
